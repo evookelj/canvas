@@ -25,7 +25,7 @@ var circle = function(x,y) {
     ctx.beginPath();
     ctx.moveTo(x+10,y);
     ctx.arc(x,y,10,0,2*Math.PI);
-    ctx.fillStyle("ff0000");
+    ctx.fillStyle = "#ff0000";
     ctx.stroke();
     ctx.fill();
 }
